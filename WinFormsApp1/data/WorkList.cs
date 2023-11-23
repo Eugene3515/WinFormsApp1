@@ -10,7 +10,8 @@ namespace WinFormsApp1.data
     {
         public int Id { get; set; }
         public string Company { get; set; }
-        public int Phone { get; set; }
+        public string Phone { get; set; }
+        public string Specialization { get; set; }
 
     }
 }

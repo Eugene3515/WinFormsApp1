@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1.data
 {
-    internal class workers
+    internal class Workers
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Names { get; set; }
         public string Surname { get; set; }
-        public int Age { get; set; }
-        public int Phone { get; set; }
+        public string Age { get; set; }
+        public string Phone { get; set; }
         public string City { get; set; }
         public string Specialization { get; set; }
 
